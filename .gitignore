@@ -1,0 +1,19 @@
+# Скрытые файлы MacOS
+.DS_Store
+
+# Файлы с ключами API и переменными окружения
+.env
+*.env
+
+# Виртуальное окружение Python
+venv/
+.venv/
+env/
+
+# Кэш Python
+__pycache__/
+*.pyc
+
+# Папки редакторов (например, VS Code или PyCharm)
+.vscode/
+.idea/
