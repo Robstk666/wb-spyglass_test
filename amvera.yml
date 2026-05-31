@@ -1,0 +1,11 @@
+meta:
+  environment: python
+  toolchain:
+    name: pip
+    version: "3.12"
+build:
+  requirementsPath: requirements.txt
+run:
+  scriptName: server.py
+  containerPort: 8000
+  servicePort: 8000
