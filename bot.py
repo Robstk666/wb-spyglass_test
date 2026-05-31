@@ -1,6 +1,3 @@
-bash
-
-cat > /home/claude/wb_bot/bot.py << 'ENDOFFILE'
 """
 bot.py — Telegram-бот для анализа конкурентов на WB
 """
@@ -315,6 +312,3 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
-ENDOFFILE
-echo "✅ bot.py обновлён"
-python3 -m py_compile /home/claude/wb_bot/bot.py && echo "✅ синтаксис OK"
